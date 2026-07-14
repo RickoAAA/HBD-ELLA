@@ -34,11 +34,11 @@ function checkGuess() {
   if (guess === target) {
     score++;
     document.getElementById("score").textContent = score;
-    result.textContent = "Yess akhirnya bener!! Maaf telat kasih ginian tapi aku doain yg terbaik buat kamu agatha. Semoga panjang umur, tambah cantik, tambah sigma, aura +++, dapat ipk 4, makin baik, jadi orang keren, dan GBU. Apapun yg baik semoga ke kamu semua, dan pastinya yg jahat jauh dari kamu. :>";
+    result.textContent = "Yess akhirnya bener!! aku doain yg terbaik buat kamu ya. Semoga panjang umur, tambah cantik, tambah jago vd, aura +++, makin baik, jadi orang keren, dan GBU. Apapun yg baik semoga ke kamu semua, dan pastinya yg jahat jauh dari kamu. :>";
     result.style.color = "green";
     target = Math.floor(Math.random() * 10) + 1;
   } else {
-    result.textContent = guess > target ? "Terlalu besar bodat! 😹" : "Terlalu kecil woii.. 🤭";
+    result.textContent = guess > target ? "Terlalu besar woip! 😹" : "Terlalu kecil kocak 🤭";
     result.style.color = "red";
   }
 }
